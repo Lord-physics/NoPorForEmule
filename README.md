@@ -14,4 +14,3 @@ El detector [NudeNet](https://github.com/notAI-tech/NudeNet) identifica partes d
 El programa lee los archivos de descarga y no los modifica, mueve ni borra. Guarda la configuración y la caché en `%LOCALAPPDATA%\NoPorForEmule` y puede recuperar la antigua carpeta `Incoming` de `%LOCALAPPDATA%\EmuleAviso\config.json`. Revisa los temporales cambiantes como máximo una vez cada 30 segundos por archivo. El aviso previo a la apertura solo funciona desde la ventana de NoPorForEmule; no intercepta los dobles clics en eMule, el Explorador ni otros programas.
 
 Código: paquete `noporforemule`. Dependencias: `requirements.txt`. Para repetir las pruebas funcionales después del primer inicio: `".venv\Scripts\python.exe" -m unittest discover -s tests -v`. Licencia del proyecto: MIT (`LICENSE`); las dependencias de terceros conservan sus propias licencias.
-
